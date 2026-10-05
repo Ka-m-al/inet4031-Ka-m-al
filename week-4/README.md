@@ -11,7 +11,9 @@ Runs the incident tracker and a PostgreSQL database as a two-service Compose sta
 
 ## Run it
 
-docker compose up -d --build
+kubectl apply -f .
+
+Docker Compose is stopped and Kubernetes is now used to run the application.
 
 ## Verify
 
